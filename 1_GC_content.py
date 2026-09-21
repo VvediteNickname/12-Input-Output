@@ -25,7 +25,8 @@ def parse_file(filename):
 
     return result
 
-d = parse_file('rosalind_gc.txt')
+namef = input('Введите имя файла (и путь к нему, если он находится в другой директории):') #rosalind_gc.txt
+d = parse_file(namef)
 gc = -1
 i = None #айди
 for k, v in d.items():
