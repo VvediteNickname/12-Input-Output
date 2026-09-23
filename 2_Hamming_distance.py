@@ -18,7 +18,7 @@ def hamming_distance(s, t):
 
     return distance
 
-namef = input('Введите имя файла (и путь к нему, если он находится в другой директории):') #rosalind_hamm.txt
+namef = input('Введите имя файла (и путь к нему, если он находится в другой директории): (rosalind_hamm.txt) ') #rosalind_hamm.txt
 with open(namef) as file:
     lines = file.readlines()
     s = lines[0].strip()

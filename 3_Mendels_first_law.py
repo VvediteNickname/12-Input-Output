@@ -30,7 +30,7 @@ def p_aa(lst):
     p = (m/N * (m-1)/(N-1))*(1/4) + (m/N * n/(N-1) * 2)*(1/2) + (n/N * (n-1)/(N-1))*1
     return p
 
-namef = input('Введите имя файла (и путь к нему, если он находится в другой директории):') #rosalind_iprb.txt
+namef = input('Введите имя файла (и путь к нему, если он находится в другой директории): (rosalind_iprb.txt) ') #rosalind_iprb.txt
 with open(namef) as file:
     line = file.readline().split()
     q = p_aa(line)

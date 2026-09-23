@@ -29,7 +29,7 @@ def maj_el(lst, n):
 
     return ans
 
-namef = input('Введите имя файла (и путь к нему, если он находится в другой директории):') #rosalind_maj.txt
+namef = input('Введите имя файла (и путь к нему, если он находится в другой директории): (rosalind_maj.txt) ') #rosalind_maj.txt
 with open(namef) as file:
     k, n = map(int, file.readline().split())
     ans = []
